@@ -18,7 +18,7 @@ class LOF:
             "溢价率": "discount_rt",
         }
         # 可在列表中添加想要监控的LOF
-        self.LOFList = [161005, 163402]
+        self.LOFList = [161005, 163402,163417]
         self.LOFList.sort()
 
         self.session = requests.Session()
